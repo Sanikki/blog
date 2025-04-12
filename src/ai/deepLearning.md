@@ -21,12 +21,12 @@
 
 
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/3df190ff36f8fcf07e9376db74ee2aec.png width=70%>
+<img src=https://i-blog.csdnimg.cn/img_convert/3df190ff36f8fcf07e9376db74ee2aec.png width=70%>
 
 &emsp;&emsp;就像人类的大脑神经一样，当你面前有一盘麻婆豆腐时，你会从色、香、味多个角度，用眼、鼻、舌多个器官去判断这是不是一盘美味佳肴。与之类似，神经网络是由多个神经元同时接收信息，共同做出决断，这样的多层神经元相比之前单一的神经元是不是作用更强了呢？
 
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/5dc8e3a29930693a73999ece9a549afb.png width=60%>
+<img src=https://i-blog.csdnimg.cn/img_convert/5dc8e3a29930693a73999ece9a549afb.png width=60%>
 
 ## 神经元与矩阵
 
@@ -35,7 +35,7 @@
 
 
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/e991d09ab1f3711ad00b6d7652df7d9a.jpeg width=55%>
+<img src=https://i-blog.csdnimg.cn/img_convert/e991d09ab1f3711ad00b6d7652df7d9a.jpeg width=55%>
 
 如果我们把所有的公式都写出来：
 
@@ -67,7 +67,7 @@ $$y_{0} = b_{0}+
 
 &emsp;&emsp;可是，无论我们增加多少层，串联多少神经元，似乎只起到了传递的作用，这样的一根神经元和多层神经网络好像没有本质上的区别。以下图为例
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/72d90657f01fcd914eb81a05899053fb.png width=40%>
+<img src=https://i-blog.csdnimg.cn/img_convert/72d90657f01fcd914eb81a05899053fb.png width=40%>
 
 
 $$
@@ -88,11 +88,11 @@ $$
 常见的激活函数有：
 
 $$sigmoid:S(x)=\frac{1}{1+e^{-x}}=\frac{e^x}{e^{x}+1}$$
-<center><img src=https://i-blog.csdnimg.cn/img_convert/0db4150cd3cc8a9059a9bbe5ad1ace37.png width=50%>
+<img src=https://i-blog.csdnimg.cn/img_convert/0db4150cd3cc8a9059a9bbe5ad1ace37.png width=50%>
 
 $$relu:f(x)=max(0,x)$$
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/68f06511805e955fab2ab4ab98b8707a.png width=50%>
+<img src=https://i-blog.csdnimg.cn/img_convert/68f06511805e955fab2ab4ab98b8707a.png width=50%>
 
 
 **这些激活函数都有着一个特征：能求导**
@@ -104,15 +104,15 @@ $$relu:f(x)=max(0,x)$$
 $$y_0=b+\sum_{i=1}^{3}c_{i}sigmoid(b_i+\sum_{j=1}^{3}w_{ij}x_{j})$$
 
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/81e917bc52fe892c76ef5c77f162c90c.png width=75%>
+<img src=https://i-blog.csdnimg.cn/img_convert/81e917bc52fe892c76ef5c77f162c90c.png width=75%>
 
 &emsp;&emsp;上图中右侧输入层到隐藏层的步骤不变。$r_i$为原线性函数的输出值，将$r_i$作为自变量，带入$sigmoid$函数中，得到结果$a_i$，再根据每个值的权重$c_i$，重新计算得到预测值$y_0$。
 
 这些激活函数真的有这么厉害吗？让我们来体会一下：
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/60cfecc44b2030bf638a6a503cab5811.png width=75%>
+<img src=https://i-blog.csdnimg.cn/img_convert/60cfecc44b2030bf638a6a503cab5811.png width=75%>
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/ca74f46e39c353f6a5aa689f3fc4f848.png width=80%>
+<img src=https://i-blog.csdnimg.cn/img_convert/ca74f46e39c353f6a5aa689f3fc4f848.png width=80%>
 
 引入了激活函数以后，是不是曲线一下子变得丝滑起来？也更贴合测试数据了。
 
@@ -125,13 +125,13 @@ $$y_0=b+\sum_{i=1}^{3}c_{i}sigmoid(b_i+\sum_{j=1}^{3}w_{ij}x_{j})$$
 <font style="color:rgba(0, 0, 0, 0.85);">&emsp;&emsp;下图就是一个过拟合的例子，我们能清楚的看到，虽然该模型很好地拟合了训练数据中的每一个数据点，但却没有找到一般规律，导致该模型在新的测试数据上误差很大。这可能是</font>**<font style="color:rgba(0, 0, 0, 0.85);">模型的复杂度过高，</font>**<font style="color:rgba(0, 0, 0, 0.85);">或者</font>**<font style="color:rgba(0, 0, 0, 0.85);">训练的数据不足</font>**<font style="color:rgba(0, 0, 0, 0.85);">等原因造成的。</font>
 
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/72d8ca92c978c5a7043fc9a59c6fcc49.png width=30%>
+<img src=https://i-blog.csdnimg.cn/img_convert/72d8ca92c978c5a7043fc9a59c6fcc49.png width=30%>
 
 &emsp;&emsp;**<font style="color:rgba(0, 0, 0, 0.85);">欠拟合（Underfit）</font>**<font style="color:rgba(0, 0, 0, 0.85);">是指模型没有很好地捕捉到数据中的特征和规律。简单来说，模型太简单了，无法对训练数据进行有效的学习。</font>
 
 &emsp;&emsp;<font style="color:rgba(0, 0, 0, 0.85);">下图就是一个欠拟合的例子，这种情况表现为，模型的准确率较低，并且随着训练迭代次数增加，模型在训练数据上的误差并没有明显下降。这可能是</font>**<font style="color:rgba(0, 0, 0, 0.85);">模型的复杂度较低，</font>**<font style="color:rgba(0, 0, 0, 0.85);">或者</font>**<font style="color:rgba(0, 0, 0, 0.85);">特征选择不当</font>**<font style="color:rgba(0, 0, 0, 0.85);">等原因造成的。</font>
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/478929ab095fa99dcda80b68a8ea6f50.png width=30%>
+<img src=https://i-blog.csdnimg.cn/img_convert/478929ab095fa99dcda80b68a8ea6f50.png width=30%>
 
 # 小记
 
@@ -139,12 +139,12 @@ $$y_0=b+\sum_{i=1}^{3}c_{i}sigmoid(b_i+\sum_{j=1}^{3}w_{ij}x_{j})$$
 
 
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/a06947d722b8b342556be00b159d4d61.png width=75%>
+<img src=https://i-blog.csdnimg.cn/img_convert/a06947d722b8b342556be00b159d4d61.png width=75%>
 
 实际上，事情往往不会那么简单，实际的案例会更加复杂
 
-<center><img src=https://i-blog.csdnimg.cn/img_convert/e6baa1ef97347c675e09efdf8f446d59.png width=75%>
-<center><img src=https://i-blog.csdnimg.cn/img_convert/c7c8426a616c9d412de44e14249fd5d1.png width=75%>
+<img src=https://i-blog.csdnimg.cn/img_convert/e6baa1ef97347c675e09efdf8f446d59.png width=75%>
+<img src=https://i-blog.csdnimg.cn/img_convert/c7c8426a616c9d412de44e14249fd5d1.png width=75%>
 
 <font style="color:rgb(31, 35, 41);">我们只需要把神经网络看作一个</font>**<font style="color:rgb(31, 35, 41);">黑匣子</font>**<font style="color:rgb(31, 35, 41);">，无需过于关注内部详细过程，反正我们只是通过输入得到了输出，只要结果拟合实际，那就达到了我们想要的结果。</font>
-<center><img src=https://i-blog.csdnimg.cn/img_convert/37d2a60d6f1cdd1971af17cf30b250df.png width=75%>
+<img src=https://i-blog.csdnimg.cn/img_convert/37d2a60d6f1cdd1971af17cf30b250df.png width=75%></center>
