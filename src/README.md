@@ -7,7 +7,7 @@ bgImage: /assets/background/blog-bg.png
 heroImage: /sanikki_circle.png
 heroText: SANIKKI
 heroFullScreen: true
-tagline: 道阻且长，行则将至，行而不辍，未来可期。v2
+tagline: 道阻且长，行则将至，行而不辍，未来可期。
 projects:
   - icon: folder-open
     name: 项目名称
