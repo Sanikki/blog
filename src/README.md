@@ -3,6 +3,7 @@ home: true
 layout: BlogHome
 icon: house
 title: 主页
+bgImage: /assets/background/blog-bg.png
 heroImage: /sanikki_circle.png
 heroText: SANIKKI
 heroFullScreen: true
@@ -14,9 +15,9 @@ projects:
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
+    name: 连接跳转测试
     desc: 链接详细描述
-    link: https://链接地址
+    link: /demo/
 
   - icon: book
     name: 书籍名称
