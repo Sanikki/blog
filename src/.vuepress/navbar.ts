@@ -49,7 +49,7 @@ export default navbar([
     prefix: "/tech/",
     children: [
       {
-        text: "Java",
+        text: "Java全栈",
         prefix: "banana/",
         children: [
           {
