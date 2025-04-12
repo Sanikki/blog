@@ -9,7 +9,7 @@ export default defineUserConfig({
     description: "vuepress-theme-hope 的博客演示",
     head: [
         [
-            "link", {rel: "icon", href: "web_avatar.webp"}
+            "link", {rel: "icon", href: "sanikki_circle.png"}
         ],
     ],
 

@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: house
 title: 主页
-heroImage: /assets/avatar/sanikki.webp
-heroText: 你博客的名称
+heroImage: /sanikki_circle.png
+heroText: SANIKKI
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 道阻且长，行则将至，行而不辍，未来可期。
 projects:
   - icon: folder-open
     name: 项目名称
