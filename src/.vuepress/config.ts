@@ -1,20 +1,20 @@
-import { defineUserConfig } from "vuepress";
+import {defineUserConfig} from "vuepress";
 
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/blog/",
-  lang: "zh-CN",
-  title: "SANIKKI的博客",
-  description: "vuepress-theme-hope 的博客演示",
-  head:[
-      [
-        "link",{ rel:"icon", href:"/asserts/avatar/sanikki.webp"}
-      ],
-  ],
+    base: "/blog/",
+    lang: "zh-CN",
+    title: "SANIKKI",
+    description: "vuepress-theme-hope 的博客演示",
+    head: [
+        [
+            "link", {rel: "icon", href: "yuyu.webp"}
+        ],
+    ],
 
-  theme,
+    theme,
 
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
+    // 和 PWA 一起启用
+    // shouldPrefetch: false,
 });

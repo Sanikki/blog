@@ -5,12 +5,10 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
-
   author: {
     name: "Mr.Hope",
     url: "https://mister-hope.com",
   },
-
   logo: "/assets/avatar/sanikki.webp" ,
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
