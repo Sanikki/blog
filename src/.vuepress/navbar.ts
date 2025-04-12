@@ -46,40 +46,36 @@ export default navbar([
   },
   {
     text: "技术笔记",
-    icon: "pen-to-square",
     prefix: "/tech/",
     children: [
       {
         text: "Java",
-        icon: "pen-to-square",
         prefix: "banana/",
         children: [
           {
             text: "Java并发",
-            icon: "pen-to-square",
             link: "1",
           },
           {
             text: "Java虚拟机",
-            icon: "pen-to-square",
             link: "2",
           },
           {
             text: "Java集合",
-            icon: "pen-to-square",
             link: "3",
           },
           {
             text: "Java算法",
-            icon: "car",
             link: "4",
           },
+          {
+            text: "网络编程",
+            link: "5"
+          }
         ],
       },
-      { text: "框架", icon: "pen-to-square", link: "cherry" },
-      { text: "MySQL", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      { text: "框架",  icon:"simple-icons:spring", link: "cherry" },
+      { text: "MySQL", link: "dragonfruit" },
     ],
   },
   {
