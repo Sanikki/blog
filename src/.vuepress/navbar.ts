@@ -50,7 +50,7 @@ export default navbar([
         children: [
             {
                 text: "Java全栈",
-                prefix: "banana/",
+                link: "cherry",
                 children: [
                     {
                         text: "Java并发",
