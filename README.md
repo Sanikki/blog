@@ -1,2 +1,0 @@
-# blog
-Sanikki博客
