@@ -106,7 +106,6 @@ export default navbar([
         children: [
             {
                 text: "AI",
-                link: "cherry",
                 children: [
                     {
                         text: "机器学习",
