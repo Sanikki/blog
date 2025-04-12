@@ -7,6 +7,11 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "SANIKKI的博客",
   description: "vuepress-theme-hope 的博客演示",
+  head:[
+      [
+        "link",{ rel:"icon", href:"/asserts/avatar/sanikki.webp"}
+      ],
+  ],
 
   theme,
 
