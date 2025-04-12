@@ -114,7 +114,7 @@ export default navbar([
                     },
                     {
                         text: "深度学习",
-                        link: "2",
+                        link: "",
                     }
 
                 ],
