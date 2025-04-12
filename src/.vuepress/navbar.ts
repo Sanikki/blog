@@ -45,8 +45,8 @@ export default navbar([
         ],
     },
     {
-        text: "技术笔记",
-        prefix: "/tech/",
+        text: "Java",
+        prefix: "/java/",
         children: [
             {
                 text: "Java全栈",
@@ -74,43 +74,51 @@ export default navbar([
                     }
                 ],
             },
+        ],
+    },
+    {
+        text: "Spring",
+        prefix: "/spring/",
+        children: [
             {
-                text: "框架",
-                icon: "simple-icons:spring",
+                text: "Spring框架",
                 link: "cherry",
                 children: [
                     {
                         text: "Spring",
-                        link: "1"
+                        link: "1",
                     },
                     {
                         text: "SpringBoot",
-                        link: "2"
+                        link: "2",
                     },
                     {
                         text: "SpringCloud",
-                        link: "3"
-                    },
+                        link: "3",
+                    }
                 ],
             },
+        ],
+    },
+    {
+        text: "人工智能",
+        prefix: "/ai/",
+        children: [
             {
-              text: "中间件",
-              link: "dragonfruit",
-              children: [
-                {text: "MySQL",link: "1"},
-                {text: "Redis", link: "2"},
-                {text: "RabbitMQ", link: "3"},
-                {text: "ElasticSearch", link:"4"},
-                {text: "Docker",link: "5"}
-              ]
-            },{
-            text: "人工智能",
-            link: "0",
-            children: [
-              {text: "机器学习", link:"1"},
-              {text: "深度学习", link: "2"}
-            ]
-          },
+                text: "AI",
+                link: "cherry",
+                children: [
+                    {
+                        text: "机器学习",
+                        link: "1",
+                    },
+                    {
+                        text: "深度学习",
+                        link: "2",
+                    }
+
+                ],
+            }
         ],
     },
     {
