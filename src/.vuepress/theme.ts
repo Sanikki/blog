@@ -6,8 +6,8 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "SANIKKI",
+    url: "https://sanikki.github.io/blog/",
   },
   logo: "/assets/avatar/sanikki.webp" ,
 
@@ -27,11 +27,11 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "人应该有价值的死去",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
-      BiliBili: "https://example.com",
+      BiliBili: "https://www.bilibili.com/",
       Bitbucket: "https://example.com",
       Dingding: "https://example.com",
       Discord: "https://example.com",
