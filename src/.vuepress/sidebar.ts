@@ -16,6 +16,11 @@ export default sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text:"AI",
+      prefix:"ai/",
+      children:"structure",
+    },
     "intro",
     {
       text: "幻灯片",
